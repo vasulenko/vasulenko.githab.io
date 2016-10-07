@@ -18,6 +18,7 @@ body{
     background-color: ghostwhite;
     border-radius: 1%;
     padding-top: 5vh;
+    margin-bottom: 2vh;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .main_info{
