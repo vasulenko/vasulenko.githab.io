@@ -36,11 +36,16 @@ body{
 .main_info_photo{
     border-radius: 100%;
     height: 20vh;
+    transition-duration: 1s;
+}
+.main_info_photo:hover{
+   transition-duration: 1s;
+    transform: scale(2 ,2) translate(0,-30px);
 }
 .about{
     text-align: left;
-    padding-top: 3vh;
-    padding-left: 10vh;
+    padding-top: 3%;
+    padding-left: 10%;
     display: inline-block;
     font-size: 1.2em;
 }
@@ -80,7 +85,7 @@ body{
 }
 .skills_child{
     text-align: center;
-    flex-basis: 10%;
+    flex-basis: 15%;
     background-color: gainsboro;
     border-radius: 16px;
     font-size: 1.0em;
@@ -88,6 +93,12 @@ body{
     text-decoration: none;
     box-sizing: border-box;
     margin-top: 1vh;
+    transform: rotate(0deg);
+    transition-duration: 2s;
+}
+.skills_child:hover{
+    transform: rotate(180deg);
+    transition-duration: 2s;
 }
 
 .skills_child p{
