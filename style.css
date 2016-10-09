@@ -1,3 +1,148 @@
+<<<<<<< HEAD
+body{
+    margin: 0;
+    font-family:'Roboto';
+    color: rgba(0, 0, 0, 0.8);
+}
+.wrapper{
+    background-color: deepskyblue;
+    width:100%;
+    height: 50vh;
+    position: absolute;
+    font-family:'Roboto';
+}
+.content{
+    height: auto;
+    width: 50%;
+    margin-top: 20vh;
+    position: relative;
+    margin-left: 25%;
+    background-color: ghostwhite;
+    border-radius: 1%;
+    padding-top: 5vh;
+    margin-bottom: 2vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.main_info{
+    width:100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 2em; 
+}
+.main_info p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto; 
+}
+.main_info_photo{
+    border-radius: 100%;
+    height: 20vh;
+    transition-duration: 0.5s;
+}
+.main_info_photo:hover{
+   transition-duration: 1s;
+    transform: scale(1.1 ,1.1) translate(0,-30px);
+}
+.about{
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 10%;
+    display: inline-block;
+    font-size: 1.2em;
+}
+.about_content{
+    margin-top: 2%;
+    
+}
+.about_content pre{
+    margin:0;
+    font-size: 1.2em;
+    font-family:'Roboto';
+}
+.link_page{
+    width: 100%;
+    height:10%;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article{
+    text-align: center;
+    font-size: 2em; 
+    width: 100%;
+}
+.skills{
+    width: 100%;
+}
+.skills_parrent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.skills_child{
+    text-align: center;
+    flex-basis: 15%;
+    background-color: gainsboro;
+    border-radius: 16px;
+    font-size: 1.0em;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 1vh;
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+}
+.skills_child:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #c6c6c6;
+}
+
+.skills_child p{
+    margin: 0;
+    padding: 0.2em;
+}
+.skills_img{
+    margin-top: 3vh;
+    width:96%;
+    height:100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.softSkillsWrapper{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.softSkills{
+    background-color: gainsboro;
+    text-align: center;
+    flex-basis: 15%;
+    font-size: 1.1em;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    height:auto;
+    border-radius: 16px;
+    padding: 0.5vh;
+    margin: 1%;
+}
+.softSkills:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #c6c6c6;
+=======
 body{
     margin: 0;
     font-family:'Roboto';
@@ -141,4 +286,5 @@ body{
     transition-duration: 0.5s;
     cursor: pointer;
     background-color: #c6c6c6;
+>>>>>>> 79cccfa7fb92cdd1d9276e0231b5067ee8eef3c4
 }
