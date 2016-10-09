@@ -8,6 +8,7 @@ body{
     width:100%;
     height: 50vh;
     position: absolute;
+    font-family:'Roboto';
 }
 .content{
     height: auto;
@@ -36,11 +37,11 @@ body{
 .main_info_photo{
     border-radius: 100%;
     height: 20vh;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .main_info_photo:hover{
    transition-duration: 1s;
-    transform: scale(2 ,2) translate(0,-30px);
+    transform: scale(1.1 ,1.1) translate(0,-30px);
 }
 .about{
     text-align: left;
@@ -94,11 +95,13 @@ body{
     box-sizing: border-box;
     margin-top: 1vh;
     transform: rotate(0deg);
-    transition-duration: 2s;
+    transition-duration: 0.5s;
 }
 .skills_child:hover{
-    transform: rotate(180deg);
-    transition-duration: 2s;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #c6c6c6;
 }
 
 .skills_child p{
@@ -111,4 +114,31 @@ body{
     height:100%;
     margin-left: 2%;
     margin-right: 2%;
+}
+.softSkillsWrapper{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.softSkills{
+    background-color: gainsboro;
+    text-align: center;
+    flex-basis: 15%;
+    font-size: 1.1em;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    height:auto;
+    border-radius: 16px;
+    padding: 0.5vh;
+    margin: 1%;
+}
+.softSkills:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #c6c6c6;
 }
