@@ -40,10 +40,6 @@ body{
     width: 10vw;
     transition-duration: 0.5s;
 }
-.main_info_photo:hover{
-   transition-duration: 1s;
-    transform: scale(1.1 ,1.1) translate(0,-30px);
-}
 .about{
     text-align: left;
     padding-top: 3%;
