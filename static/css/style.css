@@ -12,7 +12,7 @@
     font-family:'Roboto';
 }
 .container {
-    width: 40%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,7 +21,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    padding-bottom: 100%; // пропорции блока определяются здесь
+    padding-bottom: 100%;
 }
 
 .container__content {
@@ -34,15 +34,19 @@
 }
 .content{
     height: auto;
-    width: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20vh;
     position: relative;
-    margin-left: 25%;
     background-color: ghostwhite;
-    border-radius: 1%;
     padding-top: 5vh;
     margin-bottom: 2vh;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.content:nth-child(n+2) {
+    margin-top: 4%;
+    padding-top: 1%;
 }
 .main_info{
     width:100%;
@@ -50,6 +54,11 @@
     position: relative;
     text-align: center;
     font-size: 2em; 
+}
+.main_info hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main_info p{
     margin-top: 1vh;
@@ -67,13 +76,37 @@
 .about{
     text-align: left;
     padding-top: 3%;
-    padding-left: 10%;
-    display: inline-block;
+   width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 1.2em;
+    margin-bottom: 5%;
 }
-.about_content{
-    margin-top: 2%;
+.button {
+    background-color: deepskyblue;
+    padding: 1% 2% 1% 2%;
+}
+.about a {
+    margin-left: auto;
+    margin-left: 4%;
+    margin-right: auto;
+    text-decoration: none;
+    color: #fff;
+}
+.about_content:nth-child(2) {
+    margin-left: 3%;
+}
+.about_content {
     
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: column nowrap;
 }
 .about_content p{
     margin:0;
@@ -82,11 +115,21 @@
 }
 .link_page{
     width: 100%;
-    height:10%;
+  
     margin-top: 3vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: deepskyblue;
+     
+    min-height: 50px;
+}
+.link_page a {
+
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .article{
     text-align: center;
@@ -95,6 +138,11 @@
 }
 .skills{
     width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3%;
 }
 .skills_parrent{
     display: flex;
@@ -117,17 +165,24 @@
     margin-top: 1vh;
     transform: rotate(0deg);
     transition-duration: 0.5s;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .skills_child:hover{
-    transform: scale(1.2,1.2);
-    transition-duration: 0.5s;
+    /*transform: scale(1.2,1.2);
+    transition-duration: 0.5s;*/
     cursor: pointer;
     background-color: #c6c6c6;
 }
-
+.social-icon {
+    
+}
 .skills_child p{
     margin: 0;
     padding: 0.2em;
+}
+.skills_map {
+    width: 170%;
 }
 .skills_img{
     margin-top: 3vh;
