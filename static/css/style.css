@@ -274,6 +274,7 @@
      .about {
          width: 100%;
          flex-flow: row wrap;
+         font-size: 1em;
      }
      .about_content {
          width: auto;
