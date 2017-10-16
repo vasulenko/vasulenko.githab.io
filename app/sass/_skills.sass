@@ -1,0 +1,59 @@
+.skills
+  width: 90%
+  height: 29%
+  display: flex
+  flex-flow: row nowrap
+  align-items: center
+  justify-content: space-around
+  margin: 1% auto 0
+
+.skill-block
+  display: flex
+  flex-flow: column nowrap
+  align-items: center
+  justify-content: space-around
+  height: 100%
+  &__circle
+    padding: 28px
+    width: 24px
+    height: 24px
+    border: 14px solid red
+    border-radius: 100%
+    border-top-left: 0
+    position: relative
+    color: black
+    p
+      position: absolute
+      z-index: 15
+      top: 15px
+      left: 12px
+
+.pie
+  display: inline-block
+  margin: .5em
+  width: 7em
+  height: 7em
+  position: relative
+  border-radius: 50%
+  &:after
+    border-radius: 50%
+    display: block
+    content: ""
+    background: #fff
+    position: absolute
+    left: .5em
+    top: .4em
+    height: 6em
+    width: 6em
+  p
+    position: absolute
+    z-index: 15
+    top: 40%
+    left: 35%
+
+.p1
+  background-image: linear-gradient(252deg, transparent 50%, red 50%), linear-gradient(90deg, #ddd 50%, red 50%)
+.p2
+  background-image: linear-gradient(200deg, transparent 50%, red 50%), linear-gradient(90deg, #ddd 50%, red 50%)
+.p3
+  background-image: linear-gradient(236deg, transparent 50%, red 50%), linear-gradient(90deg, #ddd 50%, red 50%)
