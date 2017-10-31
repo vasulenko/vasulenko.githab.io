@@ -1,7 +1,6 @@
 # IntelliJ project files
 .idea
 *.iml
-*.min.css
 *.css.map
 node_modules
 *.log
