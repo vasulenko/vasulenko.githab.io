@@ -4,7 +4,6 @@
 *.min.css
 *.css.map
 node_modules
-main.css
 *.log
 out
 gen

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vasulenko CV</title>
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/main.css"></link>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <!--endbuild-->
+</head>
+<body>
+<a id="top"></a>
+<a onclick="scrollFrom(event,'top')" class="arrow__to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<section class="preview">
+    <div class="preview__title-block">
+        <div class="title-block">
+            <div class="title-block__greeting">
+                <div class="greeting__text">
+                    <h1>Hi</h1>
+                    <p>I`m</p>
+                </div>
+                <div class="greeting__img">
+                    <img src="/assets/img/sigil.jpg" alt="greeting img">
+                </div>
+            </div>
+            <div class="title-block__descriptions">
+                <h2>Max Vasulenko</h2>
+                <h2>Front-end Developer</h2>
+
+                <a onclick="scrollFrom(event,'about-me')" class="link-down">
+                    <div class="link-down__arrow">
+                        <i class="arrow down"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a id="about-me"></a>
+</section>
+<header class="header">
+    <div class="header__links">
+        <div class="header__link link-down"><a onclick="scrollFrom(event,'about-me')">About Me</a></div>
+        <div class="header__link link-down"><a onclick="scrollFrom(event,'skills')">Skills</a></div>
+        <div class="header__link link-down"><a onclick="scrollFrom(event,'portfolio')">Portfolio</a></div>
+        <div class="header__link link-down"><a onclick="scrollFrom(event,'contact-me')">Contact Me</a></div>
+    </div>
+</header>
+<section class="about-me">
+    <h2 class="about-me__title">About Me</h2>
+    <div class="about-me__about-block">
+        <div class="about">
+            <div class="about__description">
+                Hello there!
+                My name is Max and I`m front-end developer.
+                <br>
+                edit latter...
+            </div>
+            <div class="about__img">
+                <img src="/assets/img/avatar1.jpg" alt="greeting img">
+            </div>
+            <div class="about__skills">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 (SASS, SCSS)</li>
+                    <li>JavaScript (+Jquery)</li>
+                    <li>ECMAScript</li>
+                    <li>Angular 2</li>
+                    <li>Ember.js</li>
+                    <li>AJAX</li>
+                    <li>Node.js (+Express.js)</li>
+                    <li>GULP</li>
+                    <li>GIT, NPM</li>
+                    <li>SQL</li>
+                    <li>Scrum</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<a id="skills"></a>
+<h2 class="skills__title">Skills</h2>
+<div class="skills">
+    <div class="skill-block">
+        <div class="pie p1"><p>95%</p></div>
+        <h3 class="skill-block__title">JavaScript</h3>
+    </div>
+    <div class="skill-block">
+        <div class="pie p2"><p>80%</p></div>
+        <h3 class="skill-block__title">ECMAScript</h3>
+    </div>
+    <div class="skill-block">
+        <div class="pie p2"><p>80%</p></div>
+        <h3 class="skill-block__title">Angular.js</h3>
+    </div>
+    <div class="skill-block">
+        <div class="pie p1"><p>95%</p></div>
+        <h3 class="skill-block__title">HTML</h3>
+    </div>
+    <div class="skill-block">
+        <div class="pie p3"><p>90%</p></div>
+        <h3 class="skill-block__title">CSS</h3>
+    </div>
+</div>
+<section class="portfolio">
+    <a id="portfolio"></a>
+    <h2 class="portfolio__title">Portfolio</h2>
+    <h2 class="portfolio__subtitle">My Work</h2>
+    <!--<div class="separator separator&#45;&#45;white">&nbsp;</div>-->
+</section>
+<a id="contact-me"></a>
+<section class="contact-me">
+    <h2 class="contact-me__title">Contact Me</h2>
+    <h2 class="contact-me__subtitle"></h2>
+    <div class="separator">&nbsp;</div>
+    <h5 class="contact-form__subtitle">No one lights a lamp in order to hide it behind the door: the purpose of
+        light is to create more light, to open people’s eyes, to reveal the marvels around.</h5>
+    <form action="mailto:vasulenko.max@gmail.com" class="contact-form">
+        <input required type="text" placeholder="Name">
+        <input required type="email" placeholder="Email">
+        <textarea required name="text" placeholder="Message"></textarea>
+        <button type="submit" class="contact-form__submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer__social-buttons">
+        <div class="footer__social-button">
+            <a href="https://www.facebook.com/krayevou"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="footer__social-button">
+            <a href="https://twitter.com/KrayevouMax"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer__social-button">
+            <a href="https://plus.google.com/u/0/116593202397595765475"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer__social-button">
+            <a href="https://web.telegram.org/#/im?p=@krayevou"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer__social-button">
+            <a href="https://github.com/vasulenko"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer__social-button">
+            <a href="https://www.linkedin.com/in/max-vasulenko/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <h4>© 2017 Max Vasulenko </h4>
+</footer>
+<script src="js/scroll.js"></script>
+</body>
+</html>
