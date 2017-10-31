@@ -1,0 +1,24 @@
+.separator
+    width: 150px
+    border-bottom: 1px solid $darkgrey
+    margin: 20px auto
+    height: 2px
+    &--white.separator
+        border-bottom-color: #fff
+.arrow__to-top
+    cursor: pointer
+    padding: 5px 14px
+    background-color: $darkgrey
+    position: fixed
+    bottom: 30px
+    right: 20px
+    opacity: 0.8
+    display: none
+    border-radius: 3px
+    color: #fff
+    transition: all linear 0.2s
+    &:hover
+        background-color: transparent
+        color: $pink
+    &--visible.arrow__to-top
+        display: block
