@@ -36,17 +36,21 @@ gulp.task('js', function () {
 });
 gulp.task('build', [`sass`, `fonts`], function () {
     var buildFiles = gulp.src([
-        'app/!*.html',
+        'app/*.html',
         'app/.htaccess',
-    ]).pipe(gulp.dest('dist'));
-
+    ]).pipe(gulp.dest(''));
+    var buildJs = gulp.src([
+        'app/js/**/*'
+    ]).pipe(gulp.dest('js'));
     var buildCss = gulp.src([
-        'app/css/main.min.css',
-    ]).pipe(gulp.dest('dist/css'));
-
+        'app/css/main.css',
+    ]).pipe(gulp.dest('css'));
+    var buildAssets = gulp.src([
+        'app/assets/**/*',
+    ]).pipe(gulp.dest('assets'));
     var buildFonts = gulp.src([
         'app/fonts/!**!/!*',
-    ]).pipe(gulp.dest('dist/fonts'));
+    ]).pipe(gulp.dest('fonts'));
 
 });
 
