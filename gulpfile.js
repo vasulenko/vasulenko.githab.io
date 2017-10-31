@@ -38,7 +38,7 @@ gulp.task('build', [`sass`, `fonts`], function () {
     var buildFiles = gulp.src([
         'app/*.html',
         'app/.htaccess',
-    ]).pipe(gulp.dest(''));
+    ]).pipe(gulp.dest('/'));
     var buildJs = gulp.src([
         'app/js/**/*'
     ]).pipe(gulp.dest('js'));
